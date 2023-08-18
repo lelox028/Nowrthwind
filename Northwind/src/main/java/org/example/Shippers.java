@@ -1,2 +1,4 @@
-package org.example;public class Shippers {
+package org.example;
+
+public class Shippers {
 }

@@ -1,2 +1,5 @@
-package org.example;public class Suppliers {
+package org.example;
+
+public class Suppliers {
+
 }
