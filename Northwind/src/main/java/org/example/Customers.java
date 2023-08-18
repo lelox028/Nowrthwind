@@ -2,77 +2,77 @@ package org.example;
 
 public class Customers {
 
-    private int CustomerID;
-    private String CustomerName;
-    private String ContactName;
-    private String Address;
-    private String City;
-    private String PostalCode;
-    private String Country;
+    private int customerID;
+    private String customerName;
+    private String contactName;
+    private String address;
+    private String city;
+    private String postalCode;
+    private String country;
 
     public Customers(int customerID, String customerName, String contactName, String address, String city, String postalCode, String country) {
-        CustomerID = customerID;
-        CustomerName = customerName;
-        ContactName = contactName;
-        Address = address;
-        City = city;
-        PostalCode = postalCode;
-        Country = country;
+        this.customerID = customerID;
+        this.customerName = customerName;
+        this.contactName = contactName;
+        this.address = address;
+        this.city = city;
+        this.postalCode = postalCode;
+        this.country = country;
     }
 
     public int getCustomerID() {
-        return CustomerID;
+        return customerID;
     }
 
     public void setCustomerID(int customerID) {
-        CustomerID = customerID;
+        this.customerID = customerID;
     }
 
     public String getCustomerName() {
-        return CustomerName;
+        return customerName;
     }
 
     public void setCustomerName(String customerName) {
-        CustomerName = customerName;
+        this.customerName = customerName;
     }
 
     public String getContactName() {
-        return ContactName;
+        return contactName;
     }
 
     public void setContactName(String contactName) {
-        ContactName = contactName;
+        this.contactName = contactName;
     }
 
     public String getAddress() {
-        return Address;
+        return address;
     }
 
     public void setAddress(String address) {
-        Address = address;
+        this.address = address;
     }
 
     public String getCity() {
-        return City;
+        return city;
     }
 
     public void setCity(String city) {
-        City = city;
+        this.city = city;
     }
 
     public String getPostalCode() {
-        return PostalCode;
+        return postalCode;
     }
 
     public void setPostalCode(String postalCode) {
-        PostalCode = postalCode;
+        this.postalCode = postalCode;
     }
 
     public String getCountry() {
-        return Country;
+        return country;
     }
 
     public void setCountry(String country) {
-        Country = country;
+        this.country = country;
     }
 }

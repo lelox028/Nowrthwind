@@ -1,37 +1,37 @@
 package org.example;
 
 public class Categories {
-    private int CategoryID;
-    private String CategoryName;
-    private String Description;
+    private int categoryID;
+    private String categoryName;
+    private String description;
 
     public Categories(int categoryID, String categoryName, String description) {
-        CategoryID = categoryID;
-        CategoryName = categoryName;
-        Description = description;
+        this.categoryID = categoryID;
+        this.categoryName = categoryName;
+        this.description = description;
     }
 
     public int getCategoryID() {
-        return CategoryID;
+        return categoryID;
     }
 
     public void setCategoryID(int categoryID) {
-        CategoryID = categoryID;
+        this.categoryID = categoryID;
     }
 
     public String getCategoryName() {
-        return CategoryName;
+        return categoryName;
     }
 
     public void setCategoryName(String categoryName) {
-        CategoryName = categoryName;
+        this.categoryName = categoryName;
     }
 
     public String getDescription() {
-        return Description;
+        return description;
     }
 
     public void setDescription(String description) {
-        Description = description;
+        this.description = description;
     }
 }
