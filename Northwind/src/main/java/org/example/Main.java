@@ -8,6 +8,6 @@ public class Main {
         // --> Hay variables de intacias de clases que faltan
         // --> Hacer el Fix general y una vez este el fix empezar con las otras ramas
         // --> Queda revisar bien el codigo, por si falta alguna variable esta mal y listo
-        
+
     }
 }
