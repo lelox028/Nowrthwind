@@ -8,6 +8,7 @@ public class Products {
     private String unit;
     private float price;
 
+    public Products(){}
     public Products(int productID, String productName, int supplierID, int categoryID, String unit, float price) {
         this.productID = productID;
         this.productName = productName;

@@ -5,6 +5,7 @@ public class Shippers {
     private String shipperName;
     private int phone;
 
+    public Shippers(){}
     public Shippers(int shipperID, String shipperName, int phone) {
         this.shipperID = shipperID;
         this.shipperName = shipperName;
