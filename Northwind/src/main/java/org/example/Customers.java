@@ -10,6 +10,8 @@ public class Customers {
     private String postalCode;
     private String country;
 
+    public Customers(){}
+
     public Customers(int customerID, String customerName, String contactName, String address, String city, String postalCode, String country) {
         this.customerID = customerID;
         this.customerName = customerName;

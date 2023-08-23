@@ -13,6 +13,7 @@ public class Employees {
 
     private String notes;
 
+    public Employees(){}
     public Employees(int employeeID, String lastName, String firstName, Date birthDate, String notes) {
         this.employeeID = employeeID;
         this.lastName = lastName;
