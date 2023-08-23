@@ -9,6 +9,7 @@ public class Orders {
     private Date orderDate;
     private int shipperID;
 
+    public Orders(){}
     public Orders(int orderID, int customerID, int employeeID, Date orderDate, int shipperID) {
         this.orderID = orderID;
         this.customerID = customerID;

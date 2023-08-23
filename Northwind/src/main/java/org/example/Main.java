@@ -5,5 +5,7 @@ public class Main {
         Categories c = new Categories();
         Customers cus = new Customers();
         Employees em = new Employees();
+        OrderDetails od = new OrderDetails();
+        Orders or = new Orders();
     }
 }
