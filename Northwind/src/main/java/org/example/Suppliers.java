@@ -11,6 +11,7 @@ public class Suppliers {
     private String country;
     private String phone;
 
+    public Suppliers(){}
     public Suppliers(int supplierID, String supplierName, String contactName, String address, String city, String postalCode, String country, String phone) {
         this.supplierID = supplierID;
         this.supplierName = supplierName;

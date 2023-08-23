@@ -9,5 +9,6 @@ public class Main {
         Orders or = new Orders();
         Products p = new Products();
         Shippers s = new Shippers();
+        Suppliers sup = new Suppliers();
     }
 }
