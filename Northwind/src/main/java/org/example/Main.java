@@ -7,6 +7,7 @@ import java.sql.Statement;
 
 public class Main {
     public static void main(String[] args) {
+        System.out.print("mi rama nueva");
         String jdbcUrl = "jdbc:mysql://localhost:3306/northwind"; // JDBC URL for your database
         String username = "root"; // Replace with your database username
         String password = "Shihonage50."; // Replace with your database password
